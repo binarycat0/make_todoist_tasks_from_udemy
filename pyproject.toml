@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "make-todoist-tasks-from-udemy"
+version = "0.1.0"
+description = "Make todoist list of tasks from Udemy course"
+authors = ["Artur Rakhmatulin <artur.rakhmatulin@pandadoc.com>"]
+readme = "README.md"
+packages = [{include = "make_todoist_tasks_from_udemy"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
